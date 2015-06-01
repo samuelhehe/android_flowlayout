@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sn="http://schemas.android.com/apk/res/com.samuelnotes.widget.flowlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.samuelnotes.widget.flowlayout.FlowLayout
+        android:id="@+id/aty_mflowlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:padding="15dp"
+        sn:tag_align="align_center" >
+    </com.samuelnotes.widget.flowlayout.FlowLayout>
+
+</RelativeLayout>
