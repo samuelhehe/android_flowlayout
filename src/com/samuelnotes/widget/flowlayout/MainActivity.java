@@ -24,10 +24,7 @@ public class MainActivity extends Activity {
 	}
 
 	private void initAddView() {
-
-		
-		MarginLayoutParams lp = new MarginLayoutParams(
-				MarginLayoutParams.WRAP_CONTENT,
+		MarginLayoutParams lp = new MarginLayoutParams(MarginLayoutParams.WRAP_CONTENT,
 				MarginLayoutParams.WRAP_CONTENT);
 		lp.setMargins(5, 5, 5, 5);
 		for (int i = 0; i < vals.length; i++) {
